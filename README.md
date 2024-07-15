@@ -1,20 +1,31 @@
-# myproject
+Desafio Módulo 3: 
+Criando um Dashboard corporativo com integração com MySQL e Azure
 
-Diretrizes para transformação dos dados
 
-1. Verifique os cabeçalhos e tipos de dados;
-2. Modifique os valores monetários para o tipo double preciso;
-3. Verifique a existência dos nulos e analise a remoção;
-4. Os employees com nulos em Super_ssn podem ser os gerentes. Verifique se há algum colaborador sem gerente;
-5. Verifique se há algum departamento sem gerente;
-6. Se houver departamento sem gerente, suponha que você possui os dados e preencha as lacunas;
-7. Verifique o número de horas dos projetos;
-8. Separar colunas complexas;
-9. Mesclar consultas employee e departament para criar uma tabela employee com o nome dos departamentos associados aos colaboradores. A mescla terá como base a tabela employee. Fique atento, essa informação influencia no tipo de junção;
-10. Neste processo elimine as colunas desnecessárias;
-11. Realize a junção dos colaboradores e respectivos nomes dos gerentes . Isso pode ser feito com consulta SQL ou pela mescla de tabelas com Power BI. Caso utilize SQL, especifique no README a query utilizada no processo;
-12. Mescle as colunas de Nome e Sobrenome para ter apenas uma coluna definindo os nomes dos colaboradores;
-13. Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro;
-14. Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir;
-15. Agrupe os dados a fim de saber quantos colaboradores existem por gerente;
-16. Elimine as colunas desnecessárias, que não serão usadas no relatório, de cada tabela.
+Neste desafio, um banco de dados MySQL foi criado no Microsoft Azure e conectado ao Power BI para análise e visualização. Os dados foram limpos e transformados no Power Query, utilizando as seguintes etapas:
+
+    Verificação de cabeçalhos: Garantindo a consistência dos nomes das colunas.
+    Modificação de valores monetários: Formatando valores para melhor visualização e análise.
+    Verificação de valores nulos: Identificando e tratando dados ausentes.
+    Verificação de gerentes e departamentos: Analisando a relação entre os funcionários e seus supervisores e departamentos.
+    Mescla de tabelas: Combinando dados de diferentes tabelas para uma visão completa.
+    Mescla de departamento e localização: Unindo informações de departamentos e suas localizações.
+    Mescla de colunas de tabelas: Combinando colunas relevantes de diferentes tabelas.
+    Criação de dashboard: Desenvolvendo um dashboard interativo para visualização dos dados.
+
+Ferramentas utilizadas:
+
+    Microsoft Azure
+    MySQL
+    Power BI
+    Power Query
+
+Benefícios:
+
+    Melhoria na qualidade dos dados: Limpeza e transformação dos dados garantem confiabilidade para análises.
+    Análise completa de dados: Integração de dados de diferentes fontes para uma visão holística.
+    Visualização de dados intuitiva: Criação de dashboards interativos para facilitar a compreensão dos dados.
+    Tomada de decisões mais assertivas: Insights valiosos obtidos a partir da análise de dados.
+
+
+Este desafio demonstra como o Power BI e o Power Query podem ser utilizados para simplificar e analisar dados complexos de um banco de dados MySQL no Azure. Através da limpeza, transformação e visualização dos dados, é possível obter informações valiosas para auxiliar na tomada de decisões estratégicas
