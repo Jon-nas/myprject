@@ -1,8 +1,6 @@
-Desafio Módulo 3: 
-Criando um Dashboard corporativo com integração com MySQL e Azure
+#Criando um Dashboard corporativo com integração com MySQL e Azure
 
-
-Neste desafio, um banco de dados MySQL foi criado no Microsoft Azure e conectado ao Power BI para análise e visualização. Os dados foram limpos e transformados no Power Query, utilizando as seguintes etapas:
+Banco de dados MySQL, criado no Microsoft Azure e conectado ao Power BI para análise e visualização. Os dados foram limpos e transformados no Power Query utilizando as seguintes etapas:
 
     Verificação de cabeçalhos: Garantindo a consistência dos nomes das colunas;
     Modificação de valores monetários: Formatando valores para melhor visualização e análise;
@@ -28,4 +26,4 @@ Benefícios:
     Tomada de decisões mais assertivas: Insights valiosos obtidos a partir da análise de dados.
 
 
-Este desafio demonstra como o Power BI e o Power Query podem ser utilizados para simplificar e analisar dados complexos de um banco de dados MySQL no Azure. Através da limpeza, transformação e visualização dos dados, é possível obter informações valiosas para auxiliar na tomada de decisões estratégicas
+Isso demonstra como o Power BI e o Power Query podem ser utilizados para simplificar e analisar dados complexos de um banco de dados MySQL no Azure. Através da limpeza, transformação e visualização dos dados, obtendo informações valiosas para auxilio na tomada de decisões estratégicas.
